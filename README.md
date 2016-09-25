@@ -1,12 +1,10 @@
-Facet Browser for jQuery using PHP
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Facet Browser for jQuery using PHP
 5th December 2013
 
 This package contains the jQuery facet browser plugin and
 a server-side script in PHP for resolving the facets.
 
-TO VIEW THE DEMO:
-~~~~~~~~~~~~~~~~~
+## TO GET THE DEMO GOING:
 
 The demo uses an sqlite database which is not included in
 this package simply for size efficiency. Download the SQLite
@@ -21,6 +19,7 @@ Next you need to include a couple of dependencies for the PHP
 part. The dependencies are managed using composer, so download
 and run composer:
 
+```
 	# Install Composer
 	curl -sS https://getcomposer.org/installer | php
 	# Run Composer
@@ -30,6 +29,7 @@ If you unpacked to a web-directory, you're done. Just go to
 index.html. Otherwise, you can use PHP5's built-in web-server
 to see the demo:
 
+```
 	php -S localhost:8000
 
 Then browse to http://localhost:8000
