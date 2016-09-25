@@ -1,0 +1,112 @@
+
+.results
+{
+	width: 100%;
+	margin :0;
+	clear: left;
+	padding: 0;
+}
+
+.results .defaultResultsPrinterTable
+{
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.results .defaultResultsPrinterTable th
+{
+	background: #339;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding-left: 5px;
+}
+
+.results .defaultResultsPrinterTable td
+{
+}
+
+.results .inner
+{
+	border: 1px solid #bbb;
+	border-top: none;
+}
+
+.facetList
+{
+	margin: 0;
+	padding: 0;
+}
+
+.facet
+{
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.facetDrag
+{
+	background: rgba(200,200,200,0.5);
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.facet .caption
+{
+	display: block;
+	color: #66F;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	cursor: move;
+}
+
+.facet .inner
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #bbb;
+	border-left: none;
+	background: #222;
+	overflow: scroll;
+}
+
+div.facet.first .inner
+{
+	border-left: 1px solid #bbb;
+}
+
+.facet .inner li
+{
+	display: block;
+	list-style: none;
+	padding: 2px 8px;
+	margin: 0;
+}
+
+.facet .inner li.row_odd,
+.results .defaultResultsPrinterTable tr.row_odd
+{
+	background: #333;
+}
+
+.facet .inner li.row_even,
+.results .defaultResultsPrinterTable tr.row_even
+{
+	background: #445;
+}
+
+.facet .inner li.selected
+{
+	background: #88F;
+	color: white;
+	font-weight: bold;
+}
