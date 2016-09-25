@@ -9,8 +9,7 @@ a server-side script in PHP for resolving the facets.
 The demo uses an sqlite database which is not included in
 this package simply for size efficiency. Download the SQLite
 database from here:
-
-	http://david.dupplaw.me.uk/files/CarInfo.sqlite
+http://david.dupplaw.me.uk/files/CarInfo.sqlite
 
 Put this file into the same directory as you've extracted
 this package to. It's a 1.8Mb download.
@@ -24,6 +23,7 @@ and run composer:
 	curl -sS https://getcomposer.org/installer | php
 	# Run Composer
 	php composer.phar install
+```
 
 If you unpacked to a web-directory, you're done. Just go to
 index.html. Otherwise, you can use PHP5's built-in web-server
@@ -31,6 +31,7 @@ to see the demo:
 
 ```
 	php -S localhost:8000
+```
 
 Then browse to http://localhost:8000
 
