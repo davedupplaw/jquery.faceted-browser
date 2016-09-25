@@ -1,12 +1,10 @@
-Facet Browser for jQuery using PHP
-==================================
+# Facet Browser for jQuery using PHP
 5th December 2013
 
 This package contains the jQuery facet browser plugin and
 a server-side script in PHP for resolving the facets.
 
-TO GET THE DEMO GOING:
-----------------------
+## TO GET THE DEMO GOING:
 
 The demo uses an sqlite database which is not included in
 this package simply for size efficiency. Download the SQLite
