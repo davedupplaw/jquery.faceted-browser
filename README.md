@@ -1,8 +1,20 @@
-# Facet Browser for jQuery using PHP
+# Draggable Facet Browser for jQuery
 5th December 2013
 
 This package contains the jQuery facet browser plugin and
 a server-side script in PHP for resolving the facets.
+
+A facet browser is a browser similar to the `Artist > Album`
+type of browser you might see in iTunes.  This one has a difference
+in that you can choose in what order the facets are browsed
+using drag and drop client-side.
+
+This codebase contains the jQuery widget for the draggable
+browser which generates GET calls to an API, as well as an implementation
+of that API using PHP.  You are welcome to use your own implementation.
+
+For information about the code, how to use it and see it in action, go to:
+http://david.dupplaw.me.uk/developer/jquery-facets/
 
 ## TO GET THE DEMO GOING:
 
